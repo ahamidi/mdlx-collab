@@ -6,6 +6,8 @@ import (
 	"net/http"
 	"net/mail"
 
+	_ "github.com/ahamidi/mdpx-collab/migrations"
+
 	"github.com/google/uuid"
 	"github.com/labstack/echo/v5"
 	"github.com/pocketbase/pocketbase"
